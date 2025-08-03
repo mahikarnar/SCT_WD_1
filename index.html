@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Nav</title>
+    <!---Favicon-->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='24' font-size='24'%3E🩷%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Fixed Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2138/2138440.png" alt="Cat Logo" class="cat-logo" width="35" height="35">
+                    <span class="logo-text">Mahi</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section id="home" class="me">
+            <div class="hero-content">
+                <h1>Welcome to My Website</h1>
+                <p>Experience an interactive navigation menu with smooth scrolling effects</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a passionate developer who loves creating innovative solutions and bringing ideas to life through code. With expertise in modern web technologies, I strive to deliver exceptional digital experiences that make a difference.</p>
+                <div class="about-me-grid">
+                    <div class="about-me-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Creative Thinking</h3>
+                        <p>I bring creative and innovative solutions to complex problems with fresh perspectives.</p>
+                    </div>
+                    <div class="about-me-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Technical Skills</h3>
+                        <p>Proficient in modern web technologies and always learning new tools and frameworks.</p>
+                    </div>
+                    <div class="about-me-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Passion Driven</h3>
+                        <p>I'm passionate about creating meaningful projects that solve real-world problems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section alt-bg">
+            <div class="container">
+                <h2>My Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Creating responsive and interactive websites with modern technologies and best practices. I specialize in building user-friendly web applications that deliver exceptional digital experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>My Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">Project 2</div>
+                        </div>
+                        <h3>Calculator Web App</h3>
+                        <p>A fully responsive calculator web application with modern design and seamless user experience.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">Project 3</div>
+                        </div>
+                        <h3>Tic-Tac-Toe Web App</h3>
+                        <p>A web application that provides a simple and intuitive interface for playing Tic-Tac-Toe.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">Project 4</div>
+                        </div>
+                        <h3>To-Do List App</h3>
+                        <p>A simple and intuitive to-do list application to help manage tasks effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section alt-bg">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>mahi@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+91 1234567890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Bangalore, Karnataka, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mahi | All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
