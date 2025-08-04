@@ -101,7 +101,7 @@ The website features:
 🩷 **This project showcases modern web development skills and interactive design!**
 
 **Hashtags included in my LinkedIn post submissions:**  
-`#SkillCraft #internship #WebDevelopment #ReponsiveLandingPage #InteractiveNavBar`
+`#SkillCraftTechnology #internship #WebDevelopment #ReponsiveLandingPage #InteractiveNavBar`
 
  
 
