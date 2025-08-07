@@ -57,7 +57,6 @@ SCT_WD_1/
 3. **Open in browser**:
    ```bash
    # Simply open index.html in your preferred browser
-   # or use a local server like Live Server in VS Code
    ```
 
 
