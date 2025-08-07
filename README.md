@@ -44,14 +44,20 @@ SCT_WD_1/
 
 ## ⭐ Getting Started
 
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- No additional dependencies required
+
+### Installations and guide                                      
+
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/SCT_WD_1.git
+   git clone https://github.com/yourusername/SCT_WD_2.git
    ```
 
 2. **Navigate to the project**:
    ```bash
-   cd SCT_WD_1
+   cd SCT_WD_2
    ```
 
 3. **Open in browser**:
