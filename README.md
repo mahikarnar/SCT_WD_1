@@ -1,5 +1,5 @@
 # SCT_WD_1 :  Responsive Landing Page
-SkillCraft - Web Development Internship Task 01
+SkillCraft Technology - Web Development Internship Task 01
 
 *A modern, responsive landing page featuring an interactive navigation bar with smooth scrolling effects, dynamic animations, and a beautiful design aesthetic.*
 
